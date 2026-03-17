@@ -1,0 +1,21 @@
+# 1️⃣ Go to your folder
+# 2️⃣ Initialize Git (if not already)
+git init
+
+# 3️⃣ Rename local branch to main
+git branch -M main
+
+# 4️⃣ Connect to your GitHub repo
+git remote add origin https://github.com/nushratjahanurbi/Learning_Web-Technogies_Spring_2025-26_Section-A.git
+
+# 5️⃣ Pull remote changes safely (merge histories)
+git pull origin main --allow-unrelated-histories
+
+# 6️⃣ all files in folder
+git add .
+
+# 7️⃣ Commit your changes
+git commit -m "write your text"
+
+# 8️⃣ Push to GitHub
+git push -u origin main
